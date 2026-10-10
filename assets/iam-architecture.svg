@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1000" height="650" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 650" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="650"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-650)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1000" height="650" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="617" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,1234) scale(1,-1)">PHYLAX CYBER | ACTUAL SINGLE-SERVER LAB</text>
+			<rect x="20" y="190" width="540" height="395" rx="12" ry="0" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="38" y="555" style="font-family: Helvetica-Bold; font-size: 18px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,1110) scale(1,-1)">AWS VPC 10.50.0.0/16 | us-east-1</text>
+			<rect x="40" y="215" width="500" height="315" rx="12" ry="0" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="58" y="500" style="font-family: Helvetica-Bold; font-size: 18px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,1000) scale(1,-1)">Public subnet 10.50.1.0/24</text>
+			<rect x="60" y="270" width="460" height="200" rx="12" ry="0" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="78" y="440" style="font-family: Helvetica-Bold; font-size: 18px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,880) scale(1,-1)">One EC2 Windows Server 2022</text>
+			<text x="78" y="412" style="font-family: Times-Roman; font-size: 15px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,824) scale(1,-1)">PHYLAX-DC01: AD DS + DNS + Okta AD Agent</text>
+			<text x="78" y="387" style="font-family: Times-Roman; font-size: 15px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,774) scale(1,-1)">Self-managed directory: ad.phylaxcyber.com</text>
+			<text x="78" y="362" style="font-family: Times-Roman; font-size: 15px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,724) scale(1,-1)">SSM Agent + EC2 IAM instance profile</text>
+			<text x="78" y="337" style="font-family: Times-Roman; font-size: 15px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,674) scale(1,-1)">Security group: no inbound rules / no public RDP</text>
+			<text x="78" y="312" style="font-family: Times-Roman; font-size: 15px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,624) scale(1,-1)">Encrypted EBS; lab outbound internet access</text>
+			<text x="60" y="239" style="font-family: Times-Roman; font-size: 13px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,478) scale(1,-1)">Default route -&gt; internet gateway; Elastic IP (value omitted)</text>
+			<rect x="650" y="385" width="325" height="200" rx="12" ry="0" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="668" y="555" style="font-family: Helvetica-Bold; font-size: 18px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,1110) scale(1,-1)">Okta SaaS</text>
+			<text x="668" y="527" style="font-family: Times-Roman; font-size: 15px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,1054) scale(1,-1)">AD user / group imports</text>
+			<text x="668" y="502" style="font-family: Times-Roman; font-size: 15px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,1004) scale(1,-1)">Delegated AD authentication</text>
+			<text x="668" y="477" style="font-family: Times-Roman; font-size: 15px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,954) scale(1,-1)">Email verification + app policy</text>
+			<text x="668" y="452" style="font-family: Times-Roman; font-size: 15px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,904) scale(1,-1)">Group-based application assignment</text>
+			<rect x="650" y="190" width="325" height="130" rx="12" ry="0" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="668" y="290" style="font-family: Helvetica-Bold; font-size: 18px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,580) scale(1,-1)">RSA SAML test SP</text>
+			<text x="668" y="262" style="font-family: Times-Roman; font-size: 15px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,524) scale(1,-1)">PHYLAX-SAML-SSO-LAB</text>
+			<text x="668" y="237" style="font-family: Times-Roman; font-size: 15px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,474) scale(1,-1)">Accepts browser-delivered assertion</text>
+			<rect x="20" y="25" width="295" height="120" rx="12" ry="0" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="38" y="115" style="font-family: Helvetica-Bold; font-size: 18px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,230) scale(1,-1)">Administrator</text>
+			<text x="38" y="87" style="font-family: Times-Roman; font-size: 15px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,174) scale(1,-1)">IAM-authorized SSM /</text>
+			<text x="38" y="62" style="font-family: Times-Roman; font-size: 15px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,124) scale(1,-1)">Fleet Manager access</text>
+			<rect x="360" y="25" width="260" height="120" rx="12" ry="0" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="378" y="115" style="font-family: Helvetica-Bold; font-size: 18px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,230) scale(1,-1)">User browser</text>
+			<text x="378" y="87" style="font-family: Times-Roman; font-size: 15px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,174) scale(1,-1)">AD credentials + verification</text>
+			<text x="378" y="62" style="font-family: Times-Roman; font-size: 15px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,124) scale(1,-1)">Launch assigned SAML app</text>
+			<path d="M 520,490 L 650,490 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="650 490, 640 485, 640 495" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<text x="530" y="510" style="font-family: Times-Roman; font-size: 13px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,1020) scale(1,-1)">Outbound HTTPS</text>
+			<text x="567" y="468" style="font-family: Times-Roman; font-size: 13px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,936) scale(1,-1)">TCP 443</text>
+			<path d="M 165,145 L 165,270 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="165 270, 170 260, 160 260" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<text x="175" y="151" style="font-family: Times-Roman; font-size: 13px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,302) scale(1,-1)">SSM</text>
+			<path d="M 620,105 L 630,105 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 630,105 L 630,355 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 630,355 L 650,405 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="650 405, 650.9285 393.8583, 641.6437 397.5722" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<text x="435" y="155" style="font-family: Times-Roman; font-size: 13px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,310) scale(1,-1)">HTTPS sign-in</text>
+			<path d="M 813,385 L 813,320 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="813 320, 808 330, 818 330" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,54%); fill-rule: evenodd;"/>
+			<text x="826" y="344" style="font-family: Times-Roman; font-size: 13px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,688) scale(1,-1)">SAML via browser</text>
+			<text x="22" y="7" style="font-family: Times-Roman; font-size: 14px;fill: rgb(6%,15%,24%); stroke:none;" transform="translate(0,14) scale(1,-1)">No separate private subnet, domain controller or agent host was deployed.</text>
+		</g>
+	</g>
+</svg>
